@@ -1,0 +1,190 @@
+[
+    {
+        "id": "09f4a43b-5c7a-4cc7-b054-a317f0848dc6",
+        "imdb_rating": 5.9,
+        "genres": [
+            {
+                "id": "5373d043-3f41-4ea8-9947-4b746c601bbd",
+                "name": "Comedy"
+            }
+        ],
+        "title": "Shaquille O'Neal Presents: All Star Comedy Jam - Live from Orlando",
+        "description": "The best-selling comedy franchise returns and features some of the most raw and hilarious talent including: Capone (TV's \"Showtime at the Apollo\"), Lil' Duval (TV's \"BET's Comicview\"), Tony Roberts (Comedy Only in da Hood) and Jay Pharoah (TV's \"Saturday Night Live\"). 'All Star Comedy Jam - Live from Orlando' was filmed at Hard Rock Live, in front of a live audience during the All-Star Weekend in Orlando, FL.",
+        "directors_names": [
+            "Leslie Small"
+        ],
+        "actors_names": [
+            "Tony T. Roberts",
+            "Gary Owen",
+            "Jay Pharoah",
+            "Lil Duval"
+        ],
+        "writers_names": [
+            "Jay Pharoah"
+        ],
+        "directors": [
+            {
+                "id": "f09c267a-1a38-46c2-8b1a-35721b96ec34",
+                "name": "Leslie Small"
+            }
+        ],
+        "actors": [
+            {
+                "id": "fe872b8c-0e83-4922-ad72-6e96a1ad8bd7",
+                "name": "Jay Pharoah"
+            },
+            {
+                "id": "7b3c684b-04f2-4889-9249-3aa3a2593e88",
+                "name": "Gary Owen"
+            },
+            {
+                "id": "794dc430-ac9b-40eb-b1dd-2736e0b605a5",
+                "name": "Lil Duval"
+            },
+            {
+                "id": "67b1b5ea-27e9-4524-8861-efc8fba2653a",
+                "name": "Tony T. Roberts"
+            }
+        ],
+        "writers": [
+            {
+                "id": "fe872b8c-0e83-4922-ad72-6e96a1ad8bd7",
+                "name": "Jay Pharoah"
+            }
+        ]
+    },
+    {
+        "id": "9fd7b078-7ec4-48ef-8ca1-c00f39d3296e",
+        "imdb_rating": 5.5,
+        "genres": [
+            {
+                "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff",
+                "name": "Action"
+            },
+            {
+                "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd",
+                "name": "Fantasy"
+            },
+            {
+                "id": "6c162475-c7ed-4461-9184-001ef3d9f26e",
+                "name": "Sci-Fi"
+            }
+        ],
+        "title": "Star Trek: Operation Beta Shield",
+        "description": "Fear of another invasion by the mysterious Archein Empire from the Andromeda Galaxy is running high. In order to setup a line of defense against impending invasion, a shield of allied power must be forged in the Beta Quadrant.",
+        "directors_names": [
+            "Jennifer Cole"
+        ],
+        "actors_names": [
+            "Karl Puder",
+            "Nick Cook",
+            "Rivkah Raven Wood",
+            "Risha Denney"
+        ],
+        "writers_names": [
+            "Rob Caves",
+            "Brian S. Matthews"
+        ],
+        "directors": [
+            {
+                "id": "d087ddb7-6c69-4f94-b937-4d1ad1b318d3",
+                "name": "Jennifer Cole"
+            }
+        ],
+        "actors": [
+            {
+                "id": "fdeee256-8d19-473d-ae19-0109da5cfdeb",
+                "name": "Risha Denney"
+            },
+            {
+                "id": "7658b885-1373-4779-ace7-8011cfcc1af9",
+                "name": "Nick Cook"
+            },
+            {
+                "id": "3b885c90-d41e-4fc3-b8de-1f6b3d8cabc2",
+                "name": "Karl Puder"
+            },
+            {
+                "id": "9fd47676-9fb7-4591-b483-ea2791dc649b",
+                "name": "Rivkah Raven Wood"
+            }
+        ],
+        "writers": [
+            {
+                "id": "8ff1429a-7ebe-4885-9ebc-9618d1f93957",
+                "name": "Rob Caves"
+            },
+            {
+                "id": "dedf9b03-5efc-4c69-bcc9-c0d8cdb7d609",
+                "name": "Brian S. Matthews"
+            }
+        ]
+    },
+    {
+        "id": "b164fef5-0867-46d8-b635-737e1721f6bf",
+        "imdb_rating": 6.7,
+        "genres": [
+            {
+                "id": "6a0a479b-cfec-41ac-b520-41b2b007b611",
+                "name": "Animation"
+            },
+            {
+                "id": "a886d0ec-c3f3-4b16-b973-dedcf5bfa395",
+                "name": "Short"
+            },
+            {
+                "id": "0b105f87-e0a5-45dc-8ce7-f8632088f390",
+                "name": "Western"
+            }
+        ],
+        "title": "Tar with a Star",
+        "description": "",
+        "directors_names": [
+            "Bill Tytla",
+            "George Germanetti"
+        ],
+        "actors_names": [
+            "Jackson Beck",
+            "Jack Mercer",
+            "Mae Questel"
+        ],
+        "writers_names": [
+            "Jack Mercer",
+            "Carl Meyer"
+        ],
+        "directors": [
+            {
+                "id": "3138e609-870f-4764-9a57-97d39feef7a8",
+                "name": "Bill Tytla"
+            },
+            {
+                "id": "96f18d84-55e0-4718-b87f-4a9e63544d76",
+                "name": "George Germanetti"
+            }
+        ],
+        "actors": [
+            {
+                "id": "89d4622f-5dde-4257-9401-36e3052de105",
+                "name": "Jack Mercer"
+            },
+            {
+                "id": "448b9382-f235-478b-a013-d127f421ea4a",
+                "name": "Jackson Beck"
+            },
+            {
+                "id": "2e01e457-f993-4bfe-87c3-de2ef8626cc7",
+                "name": "Mae Questel"
+            }
+        ],
+        "writers": [
+            {
+                "id": "89d4622f-5dde-4257-9401-36e3052de105",
+                "name": "Jack Mercer"
+            },
+            {
+                "id": "cb7d11c1-9041-4bf5-84b2-728847bbf035",
+                "name": "Carl Meyer"
+            }
+        ]
+    }
+]

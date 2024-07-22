@@ -1,0 +1,9 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    application/orm/alembic/versions/development/*.py,
+    application/orm/alembic/versions/production/*.py,
+    tests/*.py
+max-complexity = 10
+max-line-length = 160

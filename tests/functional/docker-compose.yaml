@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+
+    redis_test:
+        image: redis:latest
+        container_name: redis_test
+        ports:
+            - "6379:6379"
+
+    elasticsearch_test:
+        image: elasticsearch:8.7.1
+        container_name: elasticsearch_test
+        environment:
+            - discovery.type=single-node
+            - xpack.security.enabled=false
+        ports:
+            - "9200:9200"
+
+    fastapi_test:
+        container_name: fastapi_test
+        build:
+            context: ../..
+        environment:
+            - ELASTIC_HOST=elasticsearch_test
+            - REDIS_HOST=redis_test
+        ports:
+            - "8001:8000"
+        command: sh -c "poetry run uvicorn src.main:app --host 0.0.0.0 --port 8000"
+
+    tests:
+        build:
+            context: ../../
+        depends_on:
+            - fastapi_test
+        environment:
+            - ELASTIC_HOST=elasticsearch_test
+            - REDIS_HOST=redis_test
+            - SERVICE_HOST=fastapi_test
+            - SERVICE_PORT=8000
+        entrypoint: >
+            sh -c "poetry run python tests/functional/utils/waiters.py && poetry run pytest tests/functional/src"

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "5373d043-3f41-4ea8-9947-4b746c601bbd",
+        "name": "Comedy"
+    },
+    {
+        "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff",
+        "name": "Action"
+    },
+    {
+        "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd",
+        "name": "Fantasy"
+    },
+    {
+        "id": "6c162475-c7ed-4461-9184-001ef3d9f26e",
+        "name": "Sci-Fi"
+    },
+    {
+        "id": "6a0a479b-cfec-41ac-b520-41b2b007b611",
+        "name": "Animation"
+    },
+    {
+        "id": "a886d0ec-c3f3-4b16-b973-dedcf5bfa395",
+        "name": "Short"
+    },
+    {
+        "id": "0b105f87-e0a5-45dc-8ce7-f8632088f390",
+        "name": "Western"
+    }
+]

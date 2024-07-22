@@ -1,0 +1,56 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: trailing-whitespace
+        types: [python]
+    -   id: end-of-file-fixer
+        types: [python]
+    -   id: check-yaml
+    -   id: check-added-large-files
+        args: ["--maxkb=2048"]
+    -   id: double-quote-string-fixer
+        types: [python]
+
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.9.0
+    hooks:
+    -   id: mypy
+        alias: mypy_easy
+        additional_dependencies:
+        -   types-attrs
+        -   types-chardet
+        -   types-frozendict
+        -   types-requests
+        -   types-redis
+        -   types-python-dateutil
+        -   types-pytz
+        -   types-PyYAML
+        -   pydantic
+        args: [
+            "--ignore-missing-imports",
+            "--pretty"
+        ]
+
+-   repo: local
+    hooks:
+    -   id: add-trailing-comma
+        name: add-trailing-comma
+        entry: add-trailing-comma
+        language: system
+        types: [python]
+        exclude: alembic\/versions
+
+    -   id: bandit
+        name: bandit
+        entry: bandit
+        language: system
+        types: [python]
+        args: ["-c", ".bandit.yaml"]
+
+    -   id: flake8
+        name: flake8
+        entry: flake8
+        language: system
+        types: [python]
+        exclude: alembic\/versions
