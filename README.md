@@ -1,5 +1,3 @@
-**Ссылка на приватный репозиторий команды** https://github.com/Barebore/Async_API_sprint_2
-
 ## Запуск тестов
 ### Локальный запуск в docker-compose
 ```shell
